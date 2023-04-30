@@ -32,7 +32,7 @@ Requires [`New Relic Infrastructure`](https://newrelic.com/products/infrastructu
 
 ## Getting started
 
-First, ensure that you have [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) and [NPM](https://www.npmjs.com/get-npm) installed. If you're unsure whether you have one or both of them installed, run the following command(s) (If you have them installed these commands will return a version number, if not, the commands won't be recognized):
+First, ensure that you have [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) and [NPM](https://www.npmjs.com/get-npm) installed. If you're unsure whether you have one or both cdof them installed, run the following command(s) (If you have them installed these commands will return a version number, if not, the commands won't be recognized):
 
 ```bash
 git --version
@@ -44,6 +44,7 @@ Next, clone this repository and run the following scripts:
 ```bash
 nr1 nerdpack:clone -r https://github.com/newrelic/nr1-top.git
 cd nr1-top
+--nr1
 nr1 nerdpack:uuid -gf
 npm install
 npm start
